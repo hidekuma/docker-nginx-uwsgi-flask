@@ -35,7 +35,7 @@ $ docker build -t hidekuma-uwsgi .
 ```bash
 $ docker-compose up -d
 ```
-So you can see the directory ('socket'). Docker make socker directory if doker run
+So you can see the directory ('socket'). Docker make socker directory if docker run. And you can change socket`s directory path if you want.(volume config)
 
 ## Stop webserver
 ```bash
